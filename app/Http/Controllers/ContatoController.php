@@ -9,8 +9,8 @@ class ContatoController extends Controller
 {
     public function index() {
         $contatos = [
-            (object)["nome"=>"André","telefone"=>"9 8433-6645"],
-            (object)["nome"=>"Camila","telefone"=>"9 8888-7592"]
+            (object)["nome"=>"André","telefone"=>"9 9999-9999"],
+            (object)["nome"=>"Camila","telefone"=>"9 9999-9998"]
         ];
 
         $contato = new Contato();
